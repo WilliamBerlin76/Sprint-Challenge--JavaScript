@@ -30,15 +30,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-.forEach alters and loops through the original array. .map creates a new array
+.forEach loops and alters the original array. .map creates a new array
 
 2. What is the difference between a function and a method?
 
-a method is a function within a function
+a method is used within an object and is bound to that object. functions can be used globally 
 
 3. What is closure?
 
-closure allows nested items to grab information outside of their scope, but larger scope items cannot grab information from smaller scope items
+closure allows inner to grab information outside of their scope, but larger scope functions cannot grab information from smaller functions nested within them
 
 4. Describe the four rules of the 'this' keyword.
 
@@ -52,7 +52,7 @@ closure allows nested items to grab information outside of their scope, but larg
 
 5. Why do we need super() in an extended class?
 
-super() can give a child class access to the parent's methods
+super() can give a child class access to its parent's methods
 
 ## Project Set up
 
